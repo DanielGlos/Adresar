@@ -243,6 +243,7 @@ public class OsobaDetail extends JDialog{
 	private void ulozOsobu() {
 		osoba.setMeno(meno.getText());
 		osoba.setPriezvisko(priezvisko.getText());
+		logger.info("Ukladam osobu: " + osoba.getPriezvisko() + " " + osoba.getMeno());
 		DateFormat format = new SimpleDateFormat("dd.MM.yyyy");
 		try {
 			osoba.setDatNar(format.parse(datNar.getText()));
@@ -276,11 +277,11 @@ public class OsobaDetail extends JDialog{
 		osoba.setTel(tel.getText());
 		osoba.setBody(body.getValue());
 		osoba.setPoznamka(poznamka.getText());
-		logger.info("Osoba " + osoba.getPriezvisko() + " " + osoba.getMeno() + " bola ulozena");
+		logger.info("Osoba: " + osoba.getPriezvisko() + " " + osoba.getMeno() + " bola ulozena");
 	}
 	
 	public void loadOsoba(Osoba o) {
-		logger.info("Nacitavam osobu " + o.getPriezvisko() + " " + o.getMeno());
+		logger.info("Nacitavam osobu: " + o.getPriezvisko() + " " + o.getMeno());
 		meno.setText(o.getMeno());
 		priezvisko.setText(o.getPriezvisko());
 		tel.setText(o.getTel());
