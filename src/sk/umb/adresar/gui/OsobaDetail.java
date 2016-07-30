@@ -275,11 +275,11 @@ public class OsobaDetail extends JDialog{
 		osoba.setTel(tel.getText());
 		osoba.setBody(body.getValue());
 		osoba.setPoznamka(poznamka.getText());
-		logger.info("Osoba bola ulozena");
+		logger.info("Osoba bola ulozenaaaaaaaaaaaaaaaaa");
 	}
 	
 	public void loadOsoba(Osoba o) {
-		logger.info("Nacitavam osobu");
+		logger.info("Nacitavam osobuuuuuuuuuuuuuuuuuuuuu");
 		meno.setText(o.getMeno());
 		priezvisko.setText(o.getPriezvisko());
 		tel.setText(o.getTel());

@@ -20,7 +20,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		
-		logger.info("Spustam aplikaciu");
+		logger.info("Spustam aplikaciuuu");
 		
 		
 		new HlavneOkno();
