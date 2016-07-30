@@ -24,6 +24,7 @@ import sk.umb.adresar.model.enums.Vzdelanie;
 
 /**
  * Trieda reprezentujuca okno zobrazujuce detail osoby
+ * kde sa nastavuju jej hodnoty
  */
 @SuppressWarnings("serial")
 public class OsobaDetail extends JDialog{
