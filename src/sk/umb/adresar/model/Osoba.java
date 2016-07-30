@@ -6,6 +6,9 @@ import java.util.Date;
 
 import sk.umb.adresar.model.enums.*;
 
+/**
+ * Trieda reprezentujuca model osoby
+ */
 public class Osoba {
 	
 	private String meno;
