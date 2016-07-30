@@ -8,6 +8,7 @@ import sk.umb.adresar.model.enums.*;
 
 /**
  * Trieda reprezentujuca model osoby
+ * kde su udrziavane vsetky jej atributy
  */
 public class Osoba {
 	
